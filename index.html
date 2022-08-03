@@ -8,6 +8,41 @@
     <script src="https://kit.fontawesome.com/a5f2c2c277.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){   
+            $(".child3").click(function(){  
+                $(".lang").slideToggle();      
+            })
+                $(window).resize(function(){
+            if($(window).width()>1800.){ 
+                $(".lang").show();
+                //   location.reload();  
+            }
+            else{    
+                $(".lang").hide();   
+            } 
+            })	   
+        })
+        $(document).ready(function(){   
+            $(".menuicon").click(function(){  
+                $(".mega").slideToggle();      
+            })
+                $(window).resize(function(){
+            if($(window).width()>1800.){ 
+                $(".mega").show();
+                //   location.reload();  
+            }
+            else{    
+                $(".mega").hide();   
+            } 
+            })	   
+        })
+        </script>
+
+    <style>
+        
+    </style>
 </head>
 <body>
     <div class="parent1">
@@ -36,6 +71,94 @@
                 <i class="fa-solid fa-caret-down arrow"></i>
             </div>
         </div>
+    </div>
+
+    <div class="lang">
+        
+        <div class="eng">
+            
+            <ul>
+                <h2>Select your language</h2>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                <li><a href="#">latviešu</a></li>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                <li><a href="#">latviešu</a></li>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                <li><a href="#">latviešu</a></li>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                <li><a href="#">latviešu</a></li>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                <li><a href="#">latviešu</a></li>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                <li><a href="#">latviešu</a></li>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                <li><a href="#">latviešu</a></li>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                <li><a href="#">latviešu</a></li>
+                <li><a href="#">azərbaycan</a></li>
+                <li><a href="#">català</a></li>
+                <li><a href="#">eesti</a></li>
+                <li><a href="#">Gaeilge</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div class="mega">
+        <img class="logo4" src="img/logo2.png" alt="">
+        <ul>
+            <li>Download</li>
+            <li>Features</li>
+            <li>Security</li>
+            <li>Help Center</li>
+            <li>Get in touch</li>
+        </ul>
+        <button>English &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></button>
     </div>
 
     <div class="menuicon">
@@ -107,11 +230,49 @@
     </div>
 
     <div class="parent5">
-        <div></div>
+        <div class="li1">
+            <ul>
+                <li><h3>WHATSAPP</h3></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">WhatsApp Web</a></li>
+                <li><a href="#">Business</a></li>
+            </ul>
+        </div>
+        <div class="li1">
+            <ul>
+                <li><h3>COMPANY</h3></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Get in touch</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="li1">
+            <ul>
+                <li><h3>DOWNLOAD</h3></li>
+                <li><a href="#">Mac/PC</a></li>
+                <li><a href="#">Android</a></li>
+                <li><a href="#">iPhone</a></li>
+            </ul>
+        </div>
+        <div class="li1">
+            <ul>
+                <li><h3>HELP</h3></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Coronavirus</a></li>
+            </ul>
+        </div>
     </div>
 
     <div class="parent6">
-        <div></div>
+        <div><a href="#"><h2>2022 © WhatsApp LLC</h2></a></div>
+        <div><a href="#"><h2>Privacy & Terms <i class="fa-solid fa-angle-right"></i></h2></a></div>
     </div>
+
 </body>
 </html>

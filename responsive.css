@@ -159,5 +159,31 @@
         margin-top: 50px;
         width: 400px;
     }
+    .parent5{
+        padding: 40px;
+        height: auto;
+        flex-wrap: wrap;
+        padding-bottom: 3vh;
+        padding-bottom: 70px;
+    }
+    .li1{
+        flex-grow:1 ;
+        flex-shrink:1 ;
+        flex-basis:200px ;
+    }
+    .li1 ul li{
+        display: block;
+    }
+    .parent6{
+        height: auto;
+        align-items: flex-start;
+        padding-left: 40px;
+        padding-bottom: 30px;
+        flex-direction: column;
+    }
+    .parent6 div{
+        padding-top: 30px;
+    
+    }
     
 }
