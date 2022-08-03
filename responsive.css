@@ -44,11 +44,13 @@
 @media (max-width: 820px){
     .parent1{
         display: none;
+        box-sizing: border-box;
     }
     .parent2{
         margin-top: 0px;
         flex-wrap: wrap;
         height: auto;
+        box-sizing: border-box;
     }
     .child2-1{
         flex-grow:1 ;
@@ -118,6 +120,7 @@
     .parent3{
         /* margin-top: 560px; */
         flex-wrap: wrap;
+        box-sizing: border-box;
     }
     .child3-1{
         flex-grow:1 ;
@@ -153,11 +156,11 @@
     }
     .child3-1:first-child img{
         margin-top: 120px;
-        width: 400px;
+        width: 380px;
     }
     .child3-1:last-child img{
         margin-top: 50px;
-        width: 400px;
+        width: 380px;
     }
     .parent5{
         padding: 40px;
@@ -165,6 +168,7 @@
         flex-wrap: wrap;
         padding-bottom: 3vh;
         padding-bottom: 70px;
+        box-sizing: border-box;
     }
     .li1{
         flex-grow:1 ;
@@ -180,6 +184,7 @@
         padding-left: 40px;
         padding-bottom: 30px;
         flex-direction: column;
+        box-sizing: border-box;
     }
     .parent6 div{
         padding-top: 30px;
